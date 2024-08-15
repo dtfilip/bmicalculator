@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #fdbb2d, #22c1c3);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#wrapper {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#wrapper h1 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+div#wrapper div.field {
+    margin-bottom: 50px;
+}
+
+div#wrapper div.field label {
+    font-size: 24px;
+} 
+
+div#wrapper div.field input {
+    color: #fff;
+    background-color: #fdbb2d; 
+    font-size: 18px;
+    padding: 10px;
+}
+
+div#wrapper button.btn {
+    color: #fff;
+    background-color: #fdbb2d;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div#wrapper div#message {
+    color: #fdbb2d;
+    font-size: 30px;
+}
